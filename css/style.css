@@ -66,6 +66,7 @@
 }
 .sect1-container h3{
     font-size: 36px;
+    margin-bottom: 30px;
 }
 .tittle-p{
     width: 994px;
@@ -97,6 +98,7 @@
     width: 1197px;
     height: 1080px;
     margin: 0 auto;
+    padding-top: 174px;
     
 }
 .add{
@@ -136,4 +138,30 @@
 }
 .bottom-left{
     width: 504px;
+}
+.top-left h2,
+.bottom-right h2{
+    font-size: 64px;
+    margin-bottom: 116px;
+}
+.top-left p,
+.bottom-right p{
+    font-size: 16px;
+    margin-bottom: 80px;
+    width: 523px;
+    height: 160px;
+    line-height: 32px;
+
+}
+
+/* footer */
+.footer{
+    
+    width: 1440px;
+    background-color: #F84646;
+}
+.footer-container{
+    padding-top: 80px;
+    padding-left: 104px;
+    
 }
