@@ -1,6 +1,11 @@
-@media (max-width: 1550px) {
-    .burger-bar {
-        display: none;
+@media (min-width:375px) and (max-width:1024px) {
+    .sect1-container{
+        max-width: 852px;
+        width: 95%;
+    }
+    .sect1-blocks{
+        max-width: 764px;
+        width: 95%;
+
     }
 }
-
