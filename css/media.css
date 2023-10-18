@@ -2,10 +2,72 @@
     .sect1-container{
         max-width: 852px;
         width: 95%;
+        height: 1149.72px;
     }
     .sect1-blocks{
         max-width: 764px;
         width: 95%;
 
+    }
+    .section2 {
+        padding-top: 151px;
+    }
+    .sect2-container {
+        max-width: 904px;
+        width: 95%;
+
+    }
+    .top ,
+    .bottom{
+        height: 404px;
+    }
+    .top-left h2,
+    .bottom-right h2 {
+        font-size: 58px;
+        line-height: 59.5px;
+        margin-bottom: 79px;
+    }
+    .top-left p,
+    .bottom-right p {
+        max-width: 428px;
+
+        font-size: 14px;
+        margin-bottom: 46px;
+    }
+}
+@media (max-width:375px) {
+    .sect1-container {
+        width: 335px;
+        height: 1665px;
+        flex-direction: column;
+        row-gap: 80px;
+        padding-bottom: 90px;
+    }
+    .sect2-container {
+        width: 338px;
+        flex-direction: column;
+        row-gap: 44px;
+    }
+    .top {
+        flex-direction: column;
+        height: 793px;
+    }
+    .add {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .bottom {
+        flex-direction: column;
+        height: 733px;
+    }
+    .top h2,
+    .bottom h2 {
+        font-size: 36px;
+        line-height: 41.5px;
+    }
+    .top p,
+    .bottom p {
+        font-size: 14px;
+        line-height: 28.5px;
     }
 }
