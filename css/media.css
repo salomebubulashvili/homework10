@@ -38,7 +38,15 @@
         font-size: 14px;
         line-height: 28.5px;
     }
-    
+    .footer-wraper {
+        width: 2277.06px;
+        display: flex;
+        flex-direction:column ;
+        row-gap: 49px;
+    }
+    .copyright {
+        margin-top: 124px;
+    }
 }
 @media (min-width:375px) and (max-width:1024px) {
     .sect1-container{
@@ -76,6 +84,10 @@
 
         font-size: 14px;
         row-gap: 46px;
+    }
+    .footer-wraper {
+        max-width: 903.04px;
+        column-gap: 59px;
     }
 }
 /* @media (max-width:375px) {
